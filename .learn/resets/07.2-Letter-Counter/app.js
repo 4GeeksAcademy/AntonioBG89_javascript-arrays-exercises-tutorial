@@ -2,15 +2,5 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // Your code here
-for (let i in par){
-    const words = par[i].toLowerCase();
-    if(words == " ") continue;
-    else if (counts[words] == undefined){
-        counts[words] = 1;
-    } else {
-        counts[words] = counts[words] + 1;
-    }
-    
-}
 
 console.log(counts);

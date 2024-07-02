@@ -4,7 +4,6 @@ const ZerosToYahoos = (arr) => {
     let return_array = [];
     arr.forEach((item) => {
             // magic goes inside these brackets
-                
     });
     return return_array;
 };
